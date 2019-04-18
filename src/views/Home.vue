@@ -3,6 +3,9 @@
 <p>Here you can see quotes made by other users!</p>
   <image-gallery :photos="photos" />
 </div>
+<footer>
+Github Repository: https://github.com/BenjaminDazey/lab5-creative
+</footer>
 </template>
 
 <script>
