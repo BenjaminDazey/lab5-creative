@@ -108,7 +108,6 @@ export default new Vuex.Store({
     },
     async editQuote(context, body) {
       try {
-        console.log(body.id);
         let response = await axios.put("/api/photos/" + body.id, {
           description: body.description,
         })
